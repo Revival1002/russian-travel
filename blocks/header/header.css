@@ -1,0 +1,10 @@
+.header {
+	padding: 28px 48px 0 48px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr max-content max-content;
+	min-width: 320px;
+	max-width: 1280px;
+	margin: 0 auto;
+	gap: 18px;
+}
