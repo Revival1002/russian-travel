@@ -1,14 +1,93 @@
 .photo-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 284px);
+	grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   align-items: stretch;
-  max-width: 1184px;
-  margin: 92px auto 0 auto;
+  margin: 92px 0 12px 0;
+  padding: 0 48px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.photo-grid__item-wrap {
+	width: 100%;
 }
 
 .photo-grid__item {
-	width: 284px;
-  max-height: 213px;
-  object-fit: fill;
+  width: 100%;
+  background-image: url(https://pictures.s3.yandex.net/frontend-developer/responsive/cover.png);
+  background-size: cover;
+  padding-bottom: 75%;
+}
+
+.photo-grid__item_train {
+  background-image: url(../../images/train.jpg);
+}
+
+.photo-grid__item_mountains {
+  background-image: url(../../images/mountains.jpg);
+}
+
+.photo-grid__item_wolf {
+  background-image: url(../../images/wolf.jpg);
+}
+
+.photo-grid__item_forest {
+  background-image: url(../../images/forest.jpg);
+}
+
+.photo-grid__item_baikal {
+  background-image: url(../../images/baikal.jpg);
+}
+
+.photo-grid__item_beach {
+  background-image: url(../../images/beach.jpg);
+}
+
+.photo-grid__item_mount2 {
+  background-image: url(../../images/mount2.jpg);
+}
+
+.photo-grid__item_sign {
+  background-image: url(../../images/sign.jpg);
+}
+
+.photo-grid__item_kamchatka {
+  background-image: url(../../images/kamchatka.jpg);
+}
+
+.photo-grid__item_mount3 {
+  background-image: url(../../images/mount3.jpg);
+}
+
+.photo-grid__item_nature {
+  background-image: url(../../images/nature.jpg);
+}
+
+.photo-grid__item_nature2 {
+  background-image: url(../../images/nature2.jpg);
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 24px;
+    margin: 88px 0 12px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+    margin: 64px 0 12px 0;
+  }
 }
