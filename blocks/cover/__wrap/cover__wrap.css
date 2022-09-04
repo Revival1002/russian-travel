@@ -1,0 +1,11 @@
+.cover__wrap {
+  display: grid;
+  max-width: 1184px;
+  grid-template-rows: repeat(3, minmax(1fr, 740px));
+  align-items: center;
+  justify-items: center;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}

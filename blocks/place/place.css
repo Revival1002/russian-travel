@@ -8,145 +8,24 @@
   width: 100%;
 }
 
-.place__title {
-  margin: 0;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-}
-
-.place__website {
-  align-self: end;
-}
-
-.place__url-heading {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 170%;
-  letter-spacing: 2px;
-  color: #aaa;
-  margin: 0 0 12px 0;
-}
-
-.place__link {
-  color: white;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.place__link:hover {
-  opacity: .8;
-}
-
-.place__p-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-
-.place__image {
-  width: 100%;
-  padding-bottom: 100%;
-  background-size: cover;
-}
-
-.place__image_img-kosa {
-  background-image: url(../../images/kosa.jpg);
-}
-
-.place__image_img-kolsky {
-  background-image: url(../../images/kolsky.jpg);
-}
-
-.place__image_img-altay {
-  background-image: url(../../images/altay.jpg);
-}
-
-.place__image_img-baikal {
-  background-image: url(../../images/baikal.jpg);
-}
-
-.place__image_img-karelia {
-  background-image: url(../../images/karelia.jpg);
-}
-
-.place__paragraph {
-  margin: 0;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
-}
-
 @media screen and (max-width: 1024px) {
-
   .place {
     column-gap: 32px;
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
   }
-
-  .place__p-wrap {
-    gap: 25px;
-  }
-
 }
 
 @media screen and (max-width: 1023px) {
-
   .place {
     column-gap: 28px;
   }
-
-  .place__title {
-    font-size: 42px;
-    line-height: 46px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  }
-
 }
 
 @media screen and (max-width: 767px) {
-
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr;);
     gap: 32px;
   }
-
-  .place__title {
-    margin-left: 24px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .place__website {
-    margin-left: 24px;
-  }
-
-  .place__p-wrap {
-    padding: 0 16px;
-  }
-
-}
-
-
-@media screen and (max-width: 320px) {
-
-  .place__title {
-    margin-left: 16px;
-  }
-
-  .place__website {
-    margin-left: 16px;
-  }
-
-
-
 }
 

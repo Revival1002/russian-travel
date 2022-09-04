@@ -1,0 +1,17 @@
+.place__p-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__p-wrap {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__p-wrap {
+    padding: 0 16px;
+  }
+}

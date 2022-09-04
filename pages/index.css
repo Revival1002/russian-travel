@@ -10,21 +10,62 @@
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_not-bold/intro__list_not-bold.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item-wrap/photo-grid__item-wrap.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_baikal.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_beach.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_forest.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_kamchatka.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_mount2.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_mount3.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_mountains.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_nature.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_nature2.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_sign.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_train.css);
+@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_wolf.css);
 
 @import url(../blocks/places/places.css);
+
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__p-wrap/place__p-wrap.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__image/_img/place__image_img_altay.css);
+@import url(../blocks/place/__image/_img/place__image_img_baikal.css);
+@import url(../blocks/place/__image/_img/place__image_img_karelia.css);
+@import url(../blocks/place/__image/_img/place__image_img_kolsky.css);
+@import url(../blocks/place/__image/_img/place__image_img_kosa.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__text-wrap/cover__text-wrap.css);
+@import url(../blocks/cover/__wrap/cover__wrap.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
-/* div, span, section, main, header, footer, h1, h2, h3 {
-  border: 1px solid red;
-} */
+
 
 
 

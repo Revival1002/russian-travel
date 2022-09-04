@@ -1,0 +1,9 @@
+.cover__text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 2;
+}

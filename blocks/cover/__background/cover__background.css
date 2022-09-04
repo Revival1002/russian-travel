@@ -1,0 +1,8 @@
+.cover__background {
+  width: 100%;
+  background-image: url("../../../images/baikal_cover.jpg");
+  background-size: cover;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-bottom: 62.5%;
+}

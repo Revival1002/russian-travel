@@ -9,64 +9,6 @@
   width: 100%;
 }
 
-.photo-grid__item-wrap {
-	width: 100%;
-}
-
-.photo-grid__item {
-  width: 100%;
-  background-size: cover;
-  padding-bottom: 75%;
-}
-
-.photo-grid__item_train {
-  background-image: url(../../images/train.jpg);
-}
-
-.photo-grid__item_mountains {
-  background-image: url(../../images/mountains.jpg);
-}
-
-.photo-grid__item_wolf {
-  background-image: url(../../images/wolf.jpg);
-}
-
-.photo-grid__item_forest {
-  background-image: url(../../images/forest.jpg);
-}
-
-.photo-grid__item_baikal {
-  background-image: url(../../images/baikal.jpg);
-}
-
-.photo-grid__item_beach {
-  background-image: url(../../images/beach.jpg);
-}
-
-.photo-grid__item_mount2 {
-  background-image: url(../../images/mount2.jpg);
-}
-
-.photo-grid__item_sign {
-  background-image: url(../../images/sign.jpg);
-}
-
-.photo-grid__item_kamchatka {
-  background-image: url(../../images/kamchatka.jpg);
-}
-
-.photo-grid__item_mount3 {
-  background-image: url(../../images/mount3.jpg);
-}
-
-.photo-grid__item_nature {
-  background-image: url(../../images/nature.jpg);
-}
-
-.photo-grid__item_nature2 {
-  background-image: url(../../images/nature2.jpg);
-}
-
 @media screen and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -84,7 +26,6 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-
     margin: 88px 0 12px 0;
   }
 }
