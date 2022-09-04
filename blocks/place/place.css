@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   grid-template-rows: min-content min-content;
-  margin-top: 80px;
   column-gap: 40px;
   row-gap: 48px;
   width: 100%;

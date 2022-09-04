@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   align-items: stretch;
-  margin: 92px 0 12px 0;
+  margin: 92px 0;
   padding: 0 48px;
   box-sizing: border-box;
   width: 100%;
@@ -26,7 +26,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    margin: 88px 0 12px 0;
+    margin: 88px 0;
   }
 }
 
@@ -35,7 +35,7 @@
   .photo-grid {
     grid-template-columns: 1fr;
     padding: 0 16px;
-    margin: 64px 0 12px 0;
+    margin: 64px 0;
     gap: 12px;
   }
 }
