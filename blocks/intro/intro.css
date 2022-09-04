@@ -36,23 +36,18 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro {
-
-  }
-}
-
 @media screen and (max-width: 768px) {
   .intro {
     padding: 0 24px
   }
 
-  .intro__list {
-    margin-bottom: 88px;
+
+  .intro__text {
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro {
     padding: 0 16px
   }
@@ -62,7 +57,4 @@
     line-height: 35px;
   }
 
-  .intro__list {
-    margin-bottom: 64px;
-  }
 }

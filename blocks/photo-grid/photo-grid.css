@@ -15,7 +15,6 @@
 
 .photo-grid__item {
   width: 100%;
-
   background-size: cover;
   padding-bottom: 75%;
 }
@@ -96,5 +95,6 @@
     grid-template-columns: 1fr;
     padding: 0 16px;
     margin: 64px 0 12px 0;
+    gap: 12px;
   }
 }
