@@ -1,7 +1,7 @@
 .cover__wrap {
   display: grid;
   max-width: 1184px;
-  grid-template-rows: repeat(3, minmax(1fr, 740px));
+  grid-template-rows: repeat(3, fit-content(740px));
   align-items: center;
   justify-items: center;
   text-decoration: none;
