@@ -13,6 +13,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -23,20 +24,7 @@
 @import url(../blocks/intro/__list-not-bold/intro__list-not-bold.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item-wrap/photo-grid__item-wrap.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_baikal.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_beach.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_forest.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_kamchatka.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_mount2.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_mount3.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_mountains.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_nature.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_nature2.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_sign.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_train.css);
-@import url(../blocks/photo-grid/__item/_img/photo-grid__item_img_wolf.css);
 
 @import url(../blocks/places/places.css);
 

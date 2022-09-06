@@ -1,8 +1,18 @@
 .intro {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: fit-content(690px) 1fr;
+  grid-template-rows: repeat(3, min-content);
+  width: 100%;
   max-width: 984px;
-  align-self: start;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1080px) {
+  .intro {
+    padding: 0 48px;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -11,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .intro {
     padding: 0 16px;
   }
