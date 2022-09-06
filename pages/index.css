@@ -36,11 +36,6 @@
 @import url(../blocks/place/__p-wrap/place__p-wrap.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_img/place__image_img_altay.css);
-@import url(../blocks/place/__image/_img/place__image_img_baikal.css);
-@import url(../blocks/place/__image/_img/place__image_img_karelia.css);
-@import url(../blocks/place/__image/_img/place__image_img_kolsky.css);
-@import url(../blocks/place/__image/_img/place__image_img_kosa.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
