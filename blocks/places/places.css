@@ -1,9 +1,11 @@
 .places {
-  max-width: 984px;
+  max-width: 1080px;
   padding: 0 48px;
   display: flex;
   flex-direction: column;
   gap: 80px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
